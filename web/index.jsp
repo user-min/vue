@@ -16,18 +16,25 @@
 </head>
 <body>
 <div id="app">
-    {{ message }}
+    <p>{{ message }}</p>
+    <p>{{ details() }}</p>
 </div>
 <div>
     <img src="http://placehold.it/800x300" class="d-block w-100" alt="...">
 </div>
 </body>
 <script>
-    var app = new Vue({
+
+    let app = new Vue({
         el: '#app',
         data: {
             message: 'Hello Vue!'
+        },
+        methods: {
+            details: function () {
+                return '你好'
+            }
         }
-    })
+    });
 </script>
 </html>
