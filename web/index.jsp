@@ -9,6 +9,9 @@
 <html>
 <head>
     <title>$Title$</title>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/css/bootstrap.css"></script>
+    <script src="static/js/bootstrap.js"></script>
     <script src="static/js/vue.js"></script>
 </head>
 <body>
